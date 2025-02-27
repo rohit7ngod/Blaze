@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Gourmet Burgers</title>
+  <!-- Link common menu styles -->
+  <link rel="stylesheet" href="menu-style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="menu-header">
+    <nav class="menu-nav">
+      <!-- The active link gets an "active" class -->
+      <a href="assets/menu/GOURMET BURGERS.svg" class="nav-link active">Gourmet Burgers</a>
+      <a href="assets/menu/Chinese.svg" class="nav-link">Chinese</a>
+      <a href="cold-beverages.html" class="nav-link">Cold Beverages</a>
+      <a href="hot-beverages.html" class="nav-link">Hot Beverages</a>
+      <a href="main-course.html" class="nav-link">Main Course</a>
+      <a href="pasta.html" class="nav-link">Pasta</a>
+      <a href="sides.html" class="nav-link">Sides</a>
+      <a href="wraps.html" class="nav-link">Wraps</a>
+    </nav>
+  </header>
+  
+  <!-- Menu Content -->
+  <main class="menu-container">
+    <!-- Import the actual SVG file.
+         The object tag displays the SVG as a document so it is scrollable if long.
+         Adjust class "menu-svg" in CSS for dimensions as needed. -->
+    <object data="assets/menu/GOURMET BURGERS.svg" type="image/svg+xml" class="menu-svg">
+      Your browser does not support SVGs.
+    </object>
+  </main>
+</body>
+</html>
